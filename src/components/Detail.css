@@ -1,0 +1,28 @@
+.h1-title {
+  font: italic bold 50px consolas, sans-serif;
+}
+.center {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.box {
+  border: block;
+  border: 30px solid rosybrown;
+  font-style: italic;
+}
+
+#description {
+  text-align: left;
+  text-decoration-style: dashed;
+}
+
+.button {
+  height: 50%;
+  border-radius: 5px;
+
+  font-style: italic;
+  font-size: auto;
+  border: 3px solid rosybrown;
+  color: #6e6e6e;
+}
