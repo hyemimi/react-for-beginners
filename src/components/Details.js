@@ -12,7 +12,7 @@ function Details({
   description_full,
 }) {
   function onClick(e) {
-    window.location.href = "/";
+    window.location.href = "/react-for-beginners";
   }
 
   return (

@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/hello" element={<h1>hello</h1>} />
         <Route path="/movie/:id" element={<Detail />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/react-for-beginners" element={<Home />} />
       </Routes>
     </Router>
   );
