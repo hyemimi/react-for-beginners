@@ -1,5 +1,5 @@
 .h1-title {
-  font: italic bold 60px consolas, sans-serif;
+  font: italic bold 4em consolas, sans-serif;
 }
 .center {
   background-color: whitesmoke;
@@ -7,17 +7,17 @@
 }
 .grid {
   display: grid;
-  grid-gap: 120px;
-  grid-template-columns: minmax(100px, 1fr) 2fr;
+  grid-gap: 10em;
+  grid-template-columns: minmax(10em, 1fr) 2fr;
   padding: 0;
 }
 .box {
   border: block;
 
-  border: 10px solid rosybrown;
+  border: 0.5em solid rosybrown;
   font-style: italic;
   width: auto;
-  padding: 20px;
+  padding: 1em;
 }
 
 #description {
@@ -27,12 +27,13 @@
 
 .button {
   display: block;
-  height: 50%;
-  border-radius: 5px;
+
+  border-radius: 0em;
+  font: italic bold;
 
   font-style: italic;
   font-size: auto;
-  border: 3px solid rosybrown;
+  border: 10px solid rosybrown;
   color: #6e6e6e;
 }
 
