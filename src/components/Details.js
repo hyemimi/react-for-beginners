@@ -23,19 +23,23 @@ function Details({
       <h1 className="h1-title">
         {title}({year})
       </h1>
-      <img src={medium_cover_image} alt="no image" />
-      <div className="box">
-        <h2>평점 : {rating}</h2>
+      <div className="grid">
+        <img src={medium_cover_image} alt="no image" />
+        <div className="box">
+          <h2>평점 : {rating}</h2>
 
-        <h2>개봉 : {year}년</h2>
+          <h2>개봉 : {year}년</h2>
 
-        <h2>상영시간 : {runtime}분</h2>
+          <h2>상영시간 : {runtime}분</h2>
 
-        <h2>언어 : {language}</h2>
+          <h2>언어 : {language}</h2>
+          <div className="des">
+            <p>
+              <h3 id="description">{description_full}</h3>
+            </p>
+          </div>
+        </div>
       </div>
-      <p>
-        <h3 id="description">{description_full}</h3>
-      </p>
     </div>
   );
 }
